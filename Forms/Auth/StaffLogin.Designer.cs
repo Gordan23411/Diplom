@@ -42,68 +42,68 @@
             // 
             this.back_to_home_lable.AutoSize = true;
             this.back_to_home_lable.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.back_to_home_lable.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.back_to_home_lable.Location = new System.Drawing.Point(332, 409);
+            this.back_to_home_lable.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back_to_home_lable.Location = new System.Drawing.Point(287, 408);
             this.back_to_home_lable.Name = "back_to_home_lable";
-            this.back_to_home_lable.Size = new System.Drawing.Size(137, 20);
+            this.back_to_home_lable.Size = new System.Drawing.Size(226, 17);
             this.back_to_home_lable.TabIndex = 1;
-            this.back_to_home_lable.Text = "Go Back To Home";
+            this.back_to_home_lable.Text = "Вернуться на прошлую страницу";
             this.back_to_home_lable.Click += new System.EventHandler(this.back_to_home_lable_Click);
             // 
             // welcome_text
             // 
             this.welcome_text.AutoSize = true;
-            this.welcome_text.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcome_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.welcome_text.ForeColor = System.Drawing.Color.Black;
-            this.welcome_text.Location = new System.Drawing.Point(303, 21);
+            this.welcome_text.Location = new System.Drawing.Point(265, 24);
             this.welcome_text.Name = "welcome_text";
-            this.welcome_text.Size = new System.Drawing.Size(195, 19);
+            this.welcome_text.Size = new System.Drawing.Size(215, 20);
             this.welcome_text.TabIndex = 2;
-            this.welcome_text.Text = "Login To Staff Account";
+            this.welcome_text.Text = "Авторизация персонала";
             // 
             // email_input
             // 
             this.email_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.email_input.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email_input.Location = new System.Drawing.Point(291, 162);
             this.email_input.MaxLength = 300;
             this.email_input.MinimumSize = new System.Drawing.Size(2, 21);
             this.email_input.Name = "email_input";
-            this.email_input.Size = new System.Drawing.Size(222, 21);
+            this.email_input.Size = new System.Drawing.Size(222, 20);
             this.email_input.TabIndex = 5;
             // 
             // email_address_label
             // 
             this.email_address_label.AutoSize = true;
             this.email_address_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.email_address_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email_address_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email_address_label.Location = new System.Drawing.Point(287, 139);
             this.email_address_label.Name = "email_address_label";
-            this.email_address_label.Size = new System.Drawing.Size(112, 20);
+            this.email_address_label.Size = new System.Drawing.Size(93, 17);
             this.email_address_label.TabIndex = 4;
-            this.email_address_label.Text = "Email Address";
+            this.email_address_label.Text = "Адрес почты";
             // 
             // password_input
             // 
             this.password_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.password_input.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password_input.Location = new System.Drawing.Point(291, 224);
             this.password_input.MaxLength = 300;
             this.password_input.MinimumSize = new System.Drawing.Size(2, 21);
             this.password_input.Name = "password_input";
-            this.password_input.Size = new System.Drawing.Size(222, 21);
+            this.password_input.Size = new System.Drawing.Size(222, 20);
             this.password_input.TabIndex = 7;
             // 
             // password_label
             // 
             this.password_label.AutoSize = true;
             this.password_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.password_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password_label.Location = new System.Drawing.Point(287, 201);
             this.password_label.Name = "password_label";
-            this.password_label.Size = new System.Drawing.Size(79, 20);
+            this.password_label.Size = new System.Drawing.Size(57, 17);
             this.password_label.TabIndex = 6;
-            this.password_label.Text = "Password";
+            this.password_label.Text = "Пароль";
             // 
             // login_btn
             // 
@@ -111,12 +111,12 @@
             this.login_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.login_btn.FlatAppearance.BorderSize = 0;
             this.login_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.login_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.login_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login_btn.Location = new System.Drawing.Point(314, 277);
             this.login_btn.Name = "login_btn";
             this.login_btn.Size = new System.Drawing.Size(173, 38);
             this.login_btn.TabIndex = 8;
-            this.login_btn.Text = "Login";
+            this.login_btn.Text = "Авторизоваться";
             this.login_btn.UseVisualStyleBackColor = false;
             this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
             // 

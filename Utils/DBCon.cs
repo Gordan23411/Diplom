@@ -10,7 +10,7 @@ namespace HealthCare_Plus.Utils
     internal class DBCon
     {
         private SqlConnection sqlCon = new SqlConnection(
-            "Data Source=DESKTOP-69D6TBS;Initial Catalog=Healthcareplus;Integrated Security=True"
+            "Data Source= WIN-1CEMG7V4H4D\\SQLEXPRESS;Initial Catalog=Healthcareplus;Integrated Security=True"
         );
         public SqlConnection SqlConnection
         {

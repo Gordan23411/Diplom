@@ -87,12 +87,12 @@
             // 
             this.Title_label.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Title_label.AutoSize = true;
-            this.Title_label.Font = new System.Drawing.Font("Montserrat SemiBold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Title_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Title_label.Location = new System.Drawing.Point(349, 24);
             this.Title_label.Name = "Title_label";
-            this.Title_label.Size = new System.Drawing.Size(186, 21);
+            this.Title_label.Size = new System.Drawing.Size(155, 18);
             this.Title_label.TabIndex = 1;
-            this.Title_label.Text = "Add New Appointment";
+            this.Title_label.Text = "Добавления сеанаса";
             // 
             // BodyPanel
             // 
@@ -123,13 +123,13 @@
             this.ResetBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ResetBtn.FlatAppearance.BorderSize = 0;
             this.ResetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ResetBtn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResetBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResetBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.ResetBtn.Location = new System.Drawing.Point(509, 182);
             this.ResetBtn.Name = "ResetBtn";
             this.ResetBtn.Size = new System.Drawing.Size(80, 26);
             this.ResetBtn.TabIndex = 31;
-            this.ResetBtn.Text = "Reset";
+            this.ResetBtn.Text = "Сбросить";
             this.ResetBtn.UseVisualStyleBackColor = false;
             this.ResetBtn.Click += new System.EventHandler(this.ResetBtn_Click);
             // 
@@ -141,12 +141,12 @@
             this.DeleteBtn.Enabled = false;
             this.DeleteBtn.FlatAppearance.BorderSize = 0;
             this.DeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DeleteBtn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteBtn.Location = new System.Drawing.Point(405, 182);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.Size = new System.Drawing.Size(80, 26);
             this.DeleteBtn.TabIndex = 30;
-            this.DeleteBtn.Text = "Delete";
+            this.DeleteBtn.Text = "Удалить ";
             this.DeleteBtn.UseVisualStyleBackColor = false;
             this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
             // 
@@ -156,12 +156,12 @@
             this.ChargeForLabel.AutoSize = true;
             this.ChargeForLabel.BackColor = System.Drawing.Color.AliceBlue;
             this.ChargeForLabel.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ChargeForLabel.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChargeForLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChargeForLabel.Location = new System.Drawing.Point(134, 146);
             this.ChargeForLabel.Name = "ChargeForLabel";
-            this.ChargeForLabel.Size = new System.Drawing.Size(100, 20);
+            this.ChargeForLabel.Size = new System.Drawing.Size(55, 17);
             this.ChargeForLabel.TabIndex = 25;
-            this.ChargeForLabel.Text = "Charges For:";
+            this.ChargeForLabel.Text = "Сборы:";
             // 
             // ChargeForInput
             // 
@@ -176,12 +176,12 @@
             this.AppointmentChargesLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.AppointmentChargesLabel.AutoSize = true;
             this.AppointmentChargesLabel.BackColor = System.Drawing.Color.AliceBlue;
-            this.AppointmentChargesLabel.Font = new System.Drawing.Font("Montserrat SemiBold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AppointmentChargesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AppointmentChargesLabel.Location = new System.Drawing.Point(335, 112);
             this.AppointmentChargesLabel.Name = "AppointmentChargesLabel";
-            this.AppointmentChargesLabel.Size = new System.Drawing.Size(214, 21);
+            this.AppointmentChargesLabel.Size = new System.Drawing.Size(118, 18);
             this.AppointmentChargesLabel.TabIndex = 2;
-            this.AppointmentChargesLabel.Text = "Add Appointment Charges";
+            this.AppointmentChargesLabel.Text = "Плата за прием";
             // 
             // AmountLabel
             // 
@@ -189,12 +189,13 @@
             this.AmountLabel.AutoSize = true;
             this.AmountLabel.BackColor = System.Drawing.Color.AliceBlue;
             this.AmountLabel.Cursor = System.Windows.Forms.Cursors.Default;
-            this.AmountLabel.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AmountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AmountLabel.Location = new System.Drawing.Point(468, 146);
             this.AmountLabel.Name = "AmountLabel";
-            this.AmountLabel.Size = new System.Drawing.Size(71, 20);
+            this.AmountLabel.Size = new System.Drawing.Size(54, 17);
             this.AmountLabel.TabIndex = 27;
-            this.AmountLabel.Text = "Amount:";
+            this.AmountLabel.Text = "Сумма:";
+            this.AmountLabel.Click += new System.EventHandler(this.AmountLabel_Click);
             // 
             // AmountInput
             // 
@@ -211,12 +212,12 @@
             this.AddChargeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AddChargeBtn.FlatAppearance.BorderSize = 0;
             this.AddChargeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddChargeBtn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddChargeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddChargeBtn.Location = new System.Drawing.Point(296, 182);
             this.AddChargeBtn.Name = "AddChargeBtn";
             this.AddChargeBtn.Size = new System.Drawing.Size(80, 26);
             this.AddChargeBtn.TabIndex = 29;
-            this.AddChargeBtn.Text = "Add";
+            this.AddChargeBtn.Text = "Добавить";
             this.AddChargeBtn.UseVisualStyleBackColor = false;
             this.AddChargeBtn.Click += new System.EventHandler(this.AddChargeBtn_Click);
             // 
@@ -246,12 +247,12 @@
             this.MakeApptBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MakeApptBtn.FlatAppearance.BorderSize = 0;
             this.MakeApptBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MakeApptBtn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MakeApptBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MakeApptBtn.Location = new System.Drawing.Point(250, 28);
             this.MakeApptBtn.Name = "MakeApptBtn";
             this.MakeApptBtn.Size = new System.Drawing.Size(185, 38);
             this.MakeApptBtn.TabIndex = 32;
-            this.MakeApptBtn.Text = "Make Appointment";
+            this.MakeApptBtn.Text = "Запись на прием";
             this.MakeApptBtn.UseVisualStyleBackColor = false;
             this.MakeApptBtn.Click += new System.EventHandler(this.MakeApptBtn_Click);
             // 
@@ -262,13 +263,13 @@
             this.CancelBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CancelBtn.FlatAppearance.BorderSize = 0;
             this.CancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CancelBtn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CancelBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.CancelBtn.Location = new System.Drawing.Point(456, 28);
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.Size = new System.Drawing.Size(163, 38);
             this.CancelBtn.TabIndex = 32;
-            this.CancelBtn.Text = "Cancel";
+            this.CancelBtn.Text = "Отменить ";
             this.CancelBtn.UseVisualStyleBackColor = false;
             this.CancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
@@ -290,7 +291,7 @@
             this.ChargesGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(211)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Montserrat SemiBold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -324,12 +325,12 @@
             // 
             this.Select_Schedule_label.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Select_Schedule_label.AutoSize = true;
-            this.Select_Schedule_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Select_Schedule_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Select_Schedule_label.Location = new System.Drawing.Point(208, 56);
             this.Select_Schedule_label.Name = "Select_Schedule_label";
-            this.Select_Schedule_label.Size = new System.Drawing.Size(80, 20);
+            this.Select_Schedule_label.Size = new System.Drawing.Size(62, 17);
             this.Select_Schedule_label.TabIndex = 13;
-            this.Select_Schedule_label.Text = "Schedule:";
+            this.Select_Schedule_label.Text = "График:";
             // 
             // BodyTopPanel
             // 
@@ -359,12 +360,12 @@
             // 
             this.ApptNumberLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ApptNumberLabel.AutoSize = true;
-            this.ApptNumberLabel.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ApptNumberLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ApptNumberLabel.Location = new System.Drawing.Point(650, 17);
             this.ApptNumberLabel.Name = "ApptNumberLabel";
-            this.ApptNumberLabel.Size = new System.Drawing.Size(72, 20);
+            this.ApptNumberLabel.Size = new System.Drawing.Size(55, 17);
             this.ApptNumberLabel.TabIndex = 22;
-            this.ApptNumberLabel.Text = "Number:";
+            this.ApptNumberLabel.Text = "Номер:";
             // 
             // Select_Patient
             // 
@@ -394,24 +395,24 @@
             // 
             this.search_location_label.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.search_location_label.AutoSize = true;
-            this.search_location_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_location_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_location_label.Location = new System.Drawing.Point(352, 17);
             this.search_location_label.Name = "search_location_label";
-            this.search_location_label.Size = new System.Drawing.Size(65, 20);
+            this.search_location_label.Size = new System.Drawing.Size(69, 17);
             this.search_location_label.TabIndex = 11;
-            this.search_location_label.Text = "Patient:";
+            this.search_location_label.Text = "Пациент:";
             // 
             // search_doc_label
             // 
             this.search_doc_label.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.search_doc_label.AutoSize = true;
             this.search_doc_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.search_doc_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_doc_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_doc_label.Location = new System.Drawing.Point(58, 17);
             this.search_doc_label.Name = "search_doc_label";
-            this.search_doc_label.Size = new System.Drawing.Size(62, 20);
+            this.search_doc_label.Size = new System.Drawing.Size(61, 17);
             this.search_doc_label.TabIndex = 10;
-            this.search_doc_label.Text = "Doctor:";
+            this.search_doc_label.Text = "Доктор:";
             // 
             // Select_Doc
             // 
@@ -455,7 +456,7 @@
             this.Controls.Add(this.BodyPanel);
             this.Controls.Add(this.HeaderPanel);
             this.Name = "AddAppointmentForm";
-            this.Text = "AddAppointmentForm";
+            this.Text = "Добавление сеанса";
             this.Load += new System.EventHandler(this.AddAppointmentForm_Load);
             this.HeaderPanel.ResumeLayout(false);
             this.HeaderPanel.PerformLayout();

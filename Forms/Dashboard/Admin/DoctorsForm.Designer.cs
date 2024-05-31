@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.crudPanel = new System.Windows.Forms.Panel();
+            this.Specialization_combobox = new System.Windows.Forms.ComboBox();
             this.reset_btn = new System.Windows.Forms.Button();
             this.delete_btn = new System.Windows.Forms.Button();
             this.update_doc_btn = new System.Windows.Forms.Button();
@@ -55,7 +56,6 @@
             this.first_name_label = new System.Windows.Forms.Label();
             this.dataPanel = new System.Windows.Forms.Panel();
             this.doctorsDataGridView = new System.Windows.Forms.DataGridView();
-            this.Specialization_combobox = new System.Windows.Forms.ComboBox();
             this.crudPanel.SuspendLayout();
             this.dataPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.doctorsDataGridView)).BeginInit();
@@ -93,19 +93,39 @@
             this.crudPanel.Size = new System.Drawing.Size(800, 260);
             this.crudPanel.TabIndex = 0;
             // 
+            // Specialization_combobox
+            // 
+            this.Specialization_combobox.BackColor = System.Drawing.Color.White;
+            this.Specialization_combobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Specialization_combobox.FormattingEnabled = true;
+            this.Specialization_combobox.Items.AddRange(new object[] {
+            "Neurology",
+            "Urology",
+            "Family Medicine",
+            "Psychiatry",
+            "Dermatology",
+            "Orthopedics",
+            "Cardiology",
+            "Gastroenterology",
+            "Neurosurgery"});
+            this.Specialization_combobox.Location = new System.Drawing.Point(271, 207);
+            this.Specialization_combobox.Name = "Specialization_combobox";
+            this.Specialization_combobox.Size = new System.Drawing.Size(143, 21);
+            this.Specialization_combobox.TabIndex = 19;
+            // 
             // reset_btn
             // 
             this.reset_btn.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.reset_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.reset_btn.FlatAppearance.BorderSize = 0;
             this.reset_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.reset_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reset_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reset_btn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.reset_btn.Location = new System.Drawing.Point(669, 184);
             this.reset_btn.Name = "reset_btn";
             this.reset_btn.Size = new System.Drawing.Size(119, 38);
             this.reset_btn.TabIndex = 27;
-            this.reset_btn.Text = "Reset";
+            this.reset_btn.Text = "Сброс";
             this.reset_btn.UseVisualStyleBackColor = false;
             this.reset_btn.Click += new System.EventHandler(this.Reset_btn_ClickHandler);
             // 
@@ -115,12 +135,12 @@
             this.delete_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.delete_btn.FlatAppearance.BorderSize = 0;
             this.delete_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.delete_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.delete_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.delete_btn.Location = new System.Drawing.Point(530, 184);
             this.delete_btn.Name = "delete_btn";
             this.delete_btn.Size = new System.Drawing.Size(119, 38);
             this.delete_btn.TabIndex = 26;
-            this.delete_btn.Text = "Delete";
+            this.delete_btn.Text = "Удалить";
             this.delete_btn.UseVisualStyleBackColor = false;
             this.delete_btn.Click += new System.EventHandler(this.Delete_btn_Click);
             // 
@@ -130,12 +150,12 @@
             this.update_doc_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.update_doc_btn.FlatAppearance.BorderSize = 0;
             this.update_doc_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.update_doc_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.update_doc_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.update_doc_btn.Location = new System.Drawing.Point(669, 130);
             this.update_doc_btn.Name = "update_doc_btn";
-            this.update_doc_btn.Size = new System.Drawing.Size(119, 38);
+            this.update_doc_btn.Size = new System.Drawing.Size(119, 48);
             this.update_doc_btn.TabIndex = 25;
-            this.update_doc_btn.Text = "Update";
+            this.update_doc_btn.Text = "Обнавить данные";
             this.update_doc_btn.UseVisualStyleBackColor = false;
             this.update_doc_btn.Click += new System.EventHandler(this.Update_doc_btn_Click);
             // 
@@ -145,12 +165,12 @@
             this.add_doc_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.add_doc_btn.FlatAppearance.BorderSize = 0;
             this.add_doc_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.add_doc_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.add_doc_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.add_doc_btn.Location = new System.Drawing.Point(530, 130);
             this.add_doc_btn.Name = "add_doc_btn";
-            this.add_doc_btn.Size = new System.Drawing.Size(119, 38);
+            this.add_doc_btn.Size = new System.Drawing.Size(119, 48);
             this.add_doc_btn.TabIndex = 24;
-            this.add_doc_btn.Text = "Add Doctor";
+            this.add_doc_btn.Text = "Добавить доктора";
             this.add_doc_btn.UseVisualStyleBackColor = false;
             this.add_doc_btn.Click += new System.EventHandler(this.Add_doc_btn_Click);
             // 
@@ -170,12 +190,12 @@
             // 
             this.Specialization_label.AutoSize = true;
             this.Specialization_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Specialization_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Specialization_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Specialization_label.Location = new System.Drawing.Point(267, 184);
             this.Specialization_label.Name = "Specialization_label";
-            this.Specialization_label.Size = new System.Drawing.Size(109, 20);
+            this.Specialization_label.Size = new System.Drawing.Size(112, 17);
             this.Specialization_label.TabIndex = 21;
-            this.Specialization_label.Text = "Specialization";
+            this.Specialization_label.Text = "Специализация";
             this.Specialization_label.UseMnemonic = false;
             // 
             // qualification_input
@@ -201,177 +221,177 @@
             // 
             this.qualification_label.AutoSize = true;
             this.qualification_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.qualification_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.qualification_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qualification_label.Location = new System.Drawing.Point(526, 9);
             this.qualification_label.Name = "qualification_label";
-            this.qualification_label.Size = new System.Drawing.Size(100, 20);
+            this.qualification_label.Size = new System.Drawing.Size(106, 17);
             this.qualification_label.TabIndex = 19;
-            this.qualification_label.Text = "Qualification";
+            this.qualification_label.Text = "Квалификация";
             // 
             // last_name_input
             // 
             this.last_name_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.last_name_input.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.last_name_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.last_name_input.Location = new System.Drawing.Point(271, 32);
             this.last_name_input.MaxLength = 300;
             this.last_name_input.MinimumSize = new System.Drawing.Size(2, 21);
             this.last_name_input.Name = "last_name_input";
-            this.last_name_input.Size = new System.Drawing.Size(222, 21);
+            this.last_name_input.Size = new System.Drawing.Size(222, 20);
             this.last_name_input.TabIndex = 14;
             // 
             // password_input
             // 
             this.password_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.password_input.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password_input.Location = new System.Drawing.Point(271, 90);
             this.password_input.MaxLength = 300;
             this.password_input.MinimumSize = new System.Drawing.Size(2, 21);
             this.password_input.Name = "password_input";
-            this.password_input.Size = new System.Drawing.Size(222, 21);
+            this.password_input.Size = new System.Drawing.Size(222, 20);
             this.password_input.TabIndex = 16;
             // 
             // hospital_address_input
             // 
             this.hospital_address_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.hospital_address_input.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hospital_address_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hospital_address_input.Location = new System.Drawing.Point(16, 207);
             this.hospital_address_input.MaxLength = 300;
             this.hospital_address_input.MinimumSize = new System.Drawing.Size(2, 21);
             this.hospital_address_input.Name = "hospital_address_input";
-            this.hospital_address_input.Size = new System.Drawing.Size(222, 21);
+            this.hospital_address_input.Size = new System.Drawing.Size(222, 20);
             this.hospital_address_input.TabIndex = 18;
             // 
             // home_address_input
             // 
             this.home_address_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.home_address_input.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_address_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_address_input.Location = new System.Drawing.Point(271, 147);
             this.home_address_input.MaxLength = 300;
             this.home_address_input.MinimumSize = new System.Drawing.Size(2, 21);
             this.home_address_input.Name = "home_address_input";
-            this.home_address_input.Size = new System.Drawing.Size(222, 21);
+            this.home_address_input.Size = new System.Drawing.Size(222, 20);
             this.home_address_input.TabIndex = 18;
             // 
             // phone_no_input
             // 
             this.phone_no_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.phone_no_input.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phone_no_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.phone_no_input.Location = new System.Drawing.Point(16, 147);
             this.phone_no_input.MaxLength = 300;
             this.phone_no_input.MinimumSize = new System.Drawing.Size(2, 21);
             this.phone_no_input.Name = "phone_no_input";
-            this.phone_no_input.Size = new System.Drawing.Size(222, 21);
+            this.phone_no_input.Size = new System.Drawing.Size(222, 20);
             this.phone_no_input.TabIndex = 17;
             // 
             // email_input
             // 
             this.email_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.email_input.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email_input.Location = new System.Drawing.Point(16, 90);
             this.email_input.MaxLength = 300;
             this.email_input.MinimumSize = new System.Drawing.Size(2, 21);
             this.email_input.Name = "email_input";
-            this.email_input.Size = new System.Drawing.Size(222, 21);
+            this.email_input.Size = new System.Drawing.Size(222, 20);
             this.email_input.TabIndex = 15;
             // 
             // first_name_input
             // 
             this.first_name_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.first_name_input.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.first_name_input.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.first_name_input.Location = new System.Drawing.Point(16, 32);
             this.first_name_input.MaxLength = 300;
             this.first_name_input.MinimumSize = new System.Drawing.Size(2, 21);
             this.first_name_input.Name = "first_name_input";
-            this.first_name_input.Size = new System.Drawing.Size(222, 21);
+            this.first_name_input.Size = new System.Drawing.Size(222, 20);
             this.first_name_input.TabIndex = 13;
             // 
             // last_name_label
             // 
             this.last_name_label.AutoSize = true;
             this.last_name_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.last_name_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.last_name_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.last_name_label.Location = new System.Drawing.Point(267, 9);
             this.last_name_label.Name = "last_name_label";
-            this.last_name_label.Size = new System.Drawing.Size(85, 20);
+            this.last_name_label.Size = new System.Drawing.Size(35, 17);
             this.last_name_label.TabIndex = 7;
-            this.last_name_label.Text = "Last Name";
+            this.last_name_label.Text = "Имя";
             // 
             // password_label
             // 
             this.password_label.AutoSize = true;
             this.password_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.password_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password_label.Location = new System.Drawing.Point(267, 67);
             this.password_label.Name = "password_label";
-            this.password_label.Size = new System.Drawing.Size(79, 20);
+            this.password_label.Size = new System.Drawing.Size(57, 17);
             this.password_label.TabIndex = 8;
-            this.password_label.Text = "Password";
+            this.password_label.Text = "Пароль";
             // 
             // hospital_address_label
             // 
             this.hospital_address_label.AutoSize = true;
             this.hospital_address_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.hospital_address_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hospital_address_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hospital_address_label.Location = new System.Drawing.Point(12, 184);
             this.hospital_address_label.Name = "hospital_address_label";
-            this.hospital_address_label.Size = new System.Drawing.Size(131, 20);
+            this.hospital_address_label.Size = new System.Drawing.Size(117, 17);
             this.hospital_address_label.TabIndex = 9;
-            this.hospital_address_label.Text = "Hospital Address";
+            this.hospital_address_label.Text = "Адрес больницы";
             // 
             // location_label
             // 
             this.location_label.AutoSize = true;
             this.location_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.location_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.location_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.location_label.Location = new System.Drawing.Point(526, 67);
             this.location_label.Name = "location_label";
-            this.location_label.Size = new System.Drawing.Size(71, 20);
+            this.location_label.Size = new System.Drawing.Size(60, 17);
             this.location_label.TabIndex = 9;
-            this.location_label.Text = "Location";
+            this.location_label.Text = "Где он?";
             // 
             // home_address_label
             // 
             this.home_address_label.AutoSize = true;
             this.home_address_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.home_address_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_address_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_address_label.Location = new System.Drawing.Point(267, 124);
             this.home_address_label.Name = "home_address_label";
-            this.home_address_label.Size = new System.Drawing.Size(116, 20);
+            this.home_address_label.Size = new System.Drawing.Size(132, 17);
             this.home_address_label.TabIndex = 9;
-            this.home_address_label.Text = "Home Address";
+            this.home_address_label.Text = "Адрес проживания";
             // 
             // phone_no_label
             // 
             this.phone_no_label.AutoSize = true;
             this.phone_no_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.phone_no_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phone_no_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.phone_no_label.Location = new System.Drawing.Point(12, 124);
             this.phone_no_label.Name = "phone_no_label";
-            this.phone_no_label.Size = new System.Drawing.Size(121, 20);
+            this.phone_no_label.Size = new System.Drawing.Size(121, 17);
             this.phone_no_label.TabIndex = 10;
-            this.phone_no_label.Text = "Phone Number";
+            this.phone_no_label.Text = "Номер телефона";
             // 
             // email_address_label
             // 
             this.email_address_label.AutoSize = true;
             this.email_address_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.email_address_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email_address_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email_address_label.Location = new System.Drawing.Point(12, 67);
             this.email_address_label.Name = "email_address_label";
-            this.email_address_label.Size = new System.Drawing.Size(112, 20);
+            this.email_address_label.Size = new System.Drawing.Size(182, 17);
             this.email_address_label.TabIndex = 11;
-            this.email_address_label.Text = "Email Address";
+            this.email_address_label.Text = "Адрес электронной почты";
             // 
             // first_name_label
             // 
             this.first_name_label.AutoSize = true;
             this.first_name_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.first_name_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.first_name_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.first_name_label.Location = new System.Drawing.Point(12, 9);
             this.first_name_label.Name = "first_name_label";
-            this.first_name_label.Size = new System.Drawing.Size(88, 20);
+            this.first_name_label.Size = new System.Drawing.Size(70, 17);
             this.first_name_label.TabIndex = 12;
-            this.first_name_label.Text = "First Name";
+            this.first_name_label.Text = "Фамилия";
             // 
             // dataPanel
             // 
@@ -389,15 +409,15 @@
             this.doctorsDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.doctorsDataGridView.BackgroundColor = System.Drawing.Color.LightGray;
             this.doctorsDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(211)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Montserrat SemiBold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.doctorsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(211)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.doctorsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.doctorsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.doctorsDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.doctorsDataGridView.EnableHeadersVisualStyles = false;
@@ -409,26 +429,6 @@
             this.doctorsDataGridView.TabIndex = 0;
             this.doctorsDataGridView.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.OnCellDoubleClick);
             // 
-            // Specialization_combobox
-            // 
-            this.Specialization_combobox.BackColor = System.Drawing.Color.White;
-            this.Specialization_combobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Specialization_combobox.FormattingEnabled = true;
-            this.Specialization_combobox.Items.AddRange(new object[] {
-            "Neurology",
-            "Urology",
-            "Family Medicine",
-            "Psychiatry",
-            "Dermatology",
-            "Orthopedics",
-            "Cardiology",
-            "Gastroenterology",
-            "Neurosurgery"});
-            this.Specialization_combobox.Location = new System.Drawing.Point(271, 207);
-            this.Specialization_combobox.Name = "Specialization_combobox";
-            this.Specialization_combobox.Size = new System.Drawing.Size(143, 21);
-            this.Specialization_combobox.TabIndex = 19;
-            // 
             // DoctorsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -437,7 +437,7 @@
             this.Controls.Add(this.dataPanel);
             this.Controls.Add(this.crudPanel);
             this.Name = "DoctorsForm";
-            this.Text = "DoctorsForm";
+            this.Text = "Доктора";
             this.Load += new System.EventHandler(this.DoctorsForm_Load);
             this.crudPanel.ResumeLayout(false);
             this.crudPanel.PerformLayout();

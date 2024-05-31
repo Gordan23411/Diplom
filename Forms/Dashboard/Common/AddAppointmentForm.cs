@@ -301,5 +301,10 @@ namespace HealthCare_Plus.Forms.Dashboard.Common
             ChargeForInput.Text = "";
             AmountInput.Text = "";
         }
+
+        private void AmountLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

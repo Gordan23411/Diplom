@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.Title_label = new System.Windows.Forms.Label();
             this.DoctorsReportBtn = new System.Windows.Forms.Button();
             this.PatientsReportBtn = new System.Windows.Forms.Button();
@@ -43,12 +43,12 @@
             // 
             this.Title_label.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Title_label.AutoSize = true;
-            this.Title_label.Font = new System.Drawing.Font("Montserrat SemiBold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Title_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Title_label.Location = new System.Drawing.Point(371, 18);
             this.Title_label.Name = "Title_label";
-            this.Title_label.Size = new System.Drawing.Size(143, 21);
+            this.Title_label.Size = new System.Drawing.Size(137, 18);
             this.Title_label.TabIndex = 1;
-            this.Title_label.Text = "Generate Reports";
+            this.Title_label.Text = "Создание отчетов";
             // 
             // DoctorsReportBtn
             // 
@@ -57,12 +57,12 @@
             this.DoctorsReportBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoctorsReportBtn.FlatAppearance.BorderSize = 0;
             this.DoctorsReportBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DoctorsReportBtn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DoctorsReportBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DoctorsReportBtn.Location = new System.Drawing.Point(184, 60);
             this.DoctorsReportBtn.Name = "DoctorsReportBtn";
             this.DoctorsReportBtn.Size = new System.Drawing.Size(156, 36);
             this.DoctorsReportBtn.TabIndex = 21;
-            this.DoctorsReportBtn.Text = "Doctors Report";
+            this.DoctorsReportBtn.Text = "Докторский отчет";
             this.DoctorsReportBtn.UseVisualStyleBackColor = false;
             this.DoctorsReportBtn.Click += new System.EventHandler(this.DoctorsReportBtn_Click);
             // 
@@ -73,12 +73,12 @@
             this.PatientsReportBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PatientsReportBtn.FlatAppearance.BorderSize = 0;
             this.PatientsReportBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PatientsReportBtn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PatientsReportBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PatientsReportBtn.Location = new System.Drawing.Point(364, 60);
             this.PatientsReportBtn.Name = "PatientsReportBtn";
             this.PatientsReportBtn.Size = new System.Drawing.Size(156, 36);
             this.PatientsReportBtn.TabIndex = 22;
-            this.PatientsReportBtn.Text = "Patients Report";
+            this.PatientsReportBtn.Text = "Отчёт пациента";
             this.PatientsReportBtn.UseVisualStyleBackColor = false;
             this.PatientsReportBtn.Click += new System.EventHandler(this.PatientsReportBtn_Click);
             // 
@@ -89,12 +89,12 @@
             this.PaymentsReportBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PaymentsReportBtn.FlatAppearance.BorderSize = 0;
             this.PaymentsReportBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PaymentsReportBtn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PaymentsReportBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PaymentsReportBtn.Location = new System.Drawing.Point(544, 60);
             this.PaymentsReportBtn.Name = "PaymentsReportBtn";
             this.PaymentsReportBtn.Size = new System.Drawing.Size(156, 36);
             this.PaymentsReportBtn.TabIndex = 23;
-            this.PaymentsReportBtn.Text = "Payments Report";
+            this.PaymentsReportBtn.Text = "Отчёты платежей";
             this.PaymentsReportBtn.UseVisualStyleBackColor = false;
             this.PaymentsReportBtn.Click += new System.EventHandler(this.PaymentsReportBtn_Click);
             // 
@@ -118,9 +118,9 @@
             // reportsView
             // 
             this.reportsView.Dock = System.Windows.Forms.DockStyle.Fill;
-            reportDataSource1.Name = "DoctorsDataSet";
-            reportDataSource1.Value = null;
-            this.reportsView.LocalReport.DataSources.Add(reportDataSource1);
+            reportDataSource2.Name = "DoctorsDataSet";
+            reportDataSource2.Value = null;
+            this.reportsView.LocalReport.DataSources.Add(reportDataSource2);
             this.reportsView.LocalReport.ReportEmbeddedResource = "HealthCare_Plus.Forms.Dashboard.Reports.DoctorsReport.rdlc";
             this.reportsView.Location = new System.Drawing.Point(0, 0);
             this.reportsView.Name = "reportsView";
@@ -140,7 +140,7 @@
             this.Controls.Add(this.Title_label);
             this.Controls.Add(this.TopPanel);
             this.Name = "ReportsForm";
-            this.Text = "ReportsForm";
+            this.Text = "Отчёты";
             this.Load += new System.EventHandler(this.ReportsForm_Load);
             this.BodyPanel.ResumeLayout(false);
             this.ResumeLayout(false);

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.TopPanel = new System.Windows.Forms.Panel();
             this.selected_apt_no = new System.Windows.Forms.Label();
             this.appointment_selected_label = new System.Windows.Forms.Label();
@@ -85,10 +85,10 @@
             // 
             this.selected_apt_no.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.selected_apt_no.AutoSize = true;
-            this.selected_apt_no.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.selected_apt_no.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.selected_apt_no.Location = new System.Drawing.Point(502, 67);
             this.selected_apt_no.Name = "selected_apt_no";
-            this.selected_apt_no.Size = new System.Drawing.Size(44, 18);
+            this.selected_apt_no.Size = new System.Drawing.Size(40, 16);
             this.selected_apt_no.TabIndex = 2;
             this.selected_apt_no.Text = "None";
             // 
@@ -96,23 +96,23 @@
             // 
             this.appointment_selected_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.appointment_selected_label.AutoSize = true;
-            this.appointment_selected_label.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.appointment_selected_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.appointment_selected_label.Location = new System.Drawing.Point(330, 67);
             this.appointment_selected_label.Name = "appointment_selected_label";
-            this.appointment_selected_label.Size = new System.Drawing.Size(166, 18);
+            this.appointment_selected_label.Size = new System.Drawing.Size(140, 16);
             this.appointment_selected_label.TabIndex = 1;
-            this.appointment_selected_label.Text = "Selected Appointment:";
+            this.appointment_selected_label.Text = "Выбранная встреча:";
             // 
             // select_notice_label
             // 
             this.select_notice_label.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.select_notice_label.AutoSize = true;
-            this.select_notice_label.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.select_notice_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.select_notice_label.Location = new System.Drawing.Point(291, 96);
             this.select_notice_label.Name = "select_notice_label";
-            this.select_notice_label.Size = new System.Drawing.Size(303, 15);
+            this.select_notice_label.Size = new System.Drawing.Size(330, 13);
             this.select_notice_label.TabIndex = 3;
-            this.select_notice_label.Text = "Select an appointment for update and view invoice";
+            this.select_notice_label.Text = "Выберите встречу для обновления и просмотрите счет-фактуру";
             // 
             // SearchPanel
             // 
@@ -184,12 +184,12 @@
             this.Search_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Search_btn.FlatAppearance.BorderSize = 0;
             this.Search_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Search_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Search_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Search_btn.Location = new System.Drawing.Point(768, 41);
             this.Search_btn.Name = "Search_btn";
             this.Search_btn.Size = new System.Drawing.Size(80, 30);
             this.Search_btn.TabIndex = 38;
-            this.Search_btn.Text = "Search";
+            this.Search_btn.Text = "Искать";
             this.Search_btn.UseVisualStyleBackColor = false;
             this.Search_btn.Click += new System.EventHandler(this.Search_btn_Click);
             // 
@@ -208,47 +208,47 @@
             // 
             this.search_date_label.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.search_date_label.AutoSize = true;
-            this.search_date_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_date_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_date_label.Location = new System.Drawing.Point(541, 46);
             this.search_date_label.Name = "search_date_label";
-            this.search_date_label.Size = new System.Drawing.Size(47, 20);
+            this.search_date_label.Size = new System.Drawing.Size(46, 17);
             this.search_date_label.TabIndex = 33;
-            this.search_date_label.Text = "Date:";
+            this.search_date_label.Text = "Дате:";
             // 
             // search_doc_label
             // 
             this.search_doc_label.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.search_doc_label.AutoSize = true;
             this.search_doc_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.search_doc_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_doc_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_doc_label.Location = new System.Drawing.Point(37, 46);
             this.search_doc_label.Name = "search_doc_label";
-            this.search_doc_label.Size = new System.Drawing.Size(62, 20);
+            this.search_doc_label.Size = new System.Drawing.Size(52, 17);
             this.search_doc_label.TabIndex = 30;
-            this.search_doc_label.Text = "Doctor:";
+            this.search_doc_label.Text = "Врачу:";
             // 
             // search_location_label
             // 
             this.search_location_label.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.search_location_label.AutoSize = true;
-            this.search_location_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_location_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_location_label.Location = new System.Drawing.Point(291, 46);
             this.search_location_label.Name = "search_location_label";
-            this.search_location_label.Size = new System.Drawing.Size(65, 20);
+            this.search_location_label.Size = new System.Drawing.Size(76, 17);
             this.search_location_label.TabIndex = 32;
-            this.search_location_label.Text = "Patient:";
+            this.search_location_label.Text = "Пациенту:";
             // 
             // search_by_label
             // 
             this.search_by_label.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.search_by_label.AutoSize = true;
-            this.search_by_label.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_by_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_by_label.ForeColor = System.Drawing.Color.DarkSlateBlue;
             this.search_by_label.Location = new System.Drawing.Point(403, 18);
             this.search_by_label.Name = "search_by_label";
-            this.search_by_label.Size = new System.Drawing.Size(79, 18);
+            this.search_by_label.Size = new System.Drawing.Size(69, 16);
             this.search_by_label.TabIndex = 5;
-            this.search_by_label.Text = "Search By:";
+            this.search_by_label.Text = "Поиск по:";
             // 
             // View_invoice_btn
             // 
@@ -258,13 +258,13 @@
             this.View_invoice_btn.Enabled = false;
             this.View_invoice_btn.FlatAppearance.BorderSize = 0;
             this.View_invoice_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.View_invoice_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.View_invoice_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.View_invoice_btn.ForeColor = System.Drawing.SystemColors.Info;
-            this.View_invoice_btn.Location = new System.Drawing.Point(503, 140);
+            this.View_invoice_btn.Location = new System.Drawing.Point(503, 135);
             this.View_invoice_btn.Name = "View_invoice_btn";
-            this.View_invoice_btn.Size = new System.Drawing.Size(110, 30);
+            this.View_invoice_btn.Size = new System.Drawing.Size(175, 41);
             this.View_invoice_btn.TabIndex = 22;
-            this.View_invoice_btn.Text = "View Invoice";
+            this.View_invoice_btn.Text = "Просмотр счета-фактуры";
             this.View_invoice_btn.UseVisualStyleBackColor = false;
             this.View_invoice_btn.Click += new System.EventHandler(this.View_invoice_btn_Click);
             // 
@@ -276,12 +276,12 @@
             this.Update_btn.Enabled = false;
             this.Update_btn.FlatAppearance.BorderSize = 0;
             this.Update_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Update_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Update_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Update_btn.Location = new System.Drawing.Point(387, 140);
             this.Update_btn.Name = "Update_btn";
             this.Update_btn.Size = new System.Drawing.Size(110, 30);
             this.Update_btn.TabIndex = 21;
-            this.Update_btn.Text = "Update";
+            this.Update_btn.Text = "Обновить";
             this.Update_btn.UseVisualStyleBackColor = false;
             this.Update_btn.Click += new System.EventHandler(this.Update_btn_Click);
             // 
@@ -292,12 +292,12 @@
             this.Add_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Add_btn.FlatAppearance.BorderSize = 0;
             this.Add_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Add_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Add_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Add_btn.Location = new System.Drawing.Point(271, 140);
             this.Add_btn.Name = "Add_btn";
             this.Add_btn.Size = new System.Drawing.Size(110, 30);
             this.Add_btn.TabIndex = 20;
-            this.Add_btn.Text = "Add";
+            this.Add_btn.Text = "Добавить";
             this.Add_btn.UseVisualStyleBackColor = false;
             this.Add_btn.Click += new System.EventHandler(this.Add_btn_Click);
             // 
@@ -305,12 +305,12 @@
             // 
             this.Title_label.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Title_label.AutoSize = true;
-            this.Title_label.Font = new System.Drawing.Font("Montserrat SemiBold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Title_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Title_label.Location = new System.Drawing.Point(350, 9);
             this.Title_label.Name = "Title_label";
-            this.Title_label.Size = new System.Drawing.Size(185, 21);
+            this.Title_label.Size = new System.Drawing.Size(165, 18);
             this.Title_label.TabIndex = 0;
-            this.Title_label.Text = "Manage Appointments";
+            this.Title_label.Text = "Управление приемами";
             // 
             // BodyPanel
             // 
@@ -328,15 +328,15 @@
             this.AppointmentsGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.AppointmentsGridView.BackgroundColor = System.Drawing.Color.LightGray;
             this.AppointmentsGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(211)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Montserrat SemiBold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AppointmentsGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(211)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AppointmentsGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.AppointmentsGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.AppointmentsGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AppointmentsGridView.EnableHeadersVisualStyles = false;
@@ -364,7 +364,7 @@
             this.Controls.Add(this.BodyPanel);
             this.Controls.Add(this.TopPanel);
             this.Name = "AppoinmentForm";
-            this.Text = "AppoinmentForm";
+            this.Text = "Управление приемами";
             this.Load += new System.EventHandler(this.AppoinmentForm_Load);
             this.TopPanel.ResumeLayout(false);
             this.TopPanel.PerformLayout();

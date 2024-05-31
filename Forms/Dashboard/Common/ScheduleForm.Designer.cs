@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.TopPanel = new System.Windows.Forms.Panel();
             this.SearchPanel = new System.Windows.Forms.Panel();
             this.Search_btn = new System.Windows.Forms.Button();
@@ -103,12 +103,12 @@
             this.Search_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Search_btn.FlatAppearance.BorderSize = 0;
             this.Search_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Search_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Search_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Search_btn.Location = new System.Drawing.Point(793, 36);
             this.Search_btn.Name = "Search_btn";
             this.Search_btn.Size = new System.Drawing.Size(80, 30);
             this.Search_btn.TabIndex = 34;
-            this.Search_btn.Text = "Search";
+            this.Search_btn.Text = "Поиск";
             this.Search_btn.UseVisualStyleBackColor = false;
             this.Search_btn.Click += new System.EventHandler(this.search_btn_Click);
             // 
@@ -127,12 +127,12 @@
             // 
             this.search_date_label.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.search_date_label.AutoSize = true;
-            this.search_date_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_date_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_date_label.Location = new System.Drawing.Point(566, 46);
             this.search_date_label.Name = "search_date_label";
-            this.search_date_label.Size = new System.Drawing.Size(47, 20);
+            this.search_date_label.Size = new System.Drawing.Size(46, 17);
             this.search_date_label.TabIndex = 36;
-            this.search_date_label.Text = "Date:";
+            this.search_date_label.Text = "Дате:";
             // 
             // searchLocationInput
             // 
@@ -152,47 +152,47 @@
             this.search_doc_label.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.search_doc_label.AutoSize = true;
             this.search_doc_label.Cursor = System.Windows.Forms.Cursors.Default;
-            this.search_doc_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_doc_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_doc_label.Location = new System.Drawing.Point(12, 46);
             this.search_doc_label.Name = "search_doc_label";
-            this.search_doc_label.Size = new System.Drawing.Size(109, 20);
+            this.search_doc_label.Size = new System.Drawing.Size(82, 17);
             this.search_doc_label.TabIndex = 11;
-            this.search_doc_label.Text = "Doctor Name:";
+            this.search_doc_label.Text = "Имя врача:";
             // 
             // search_location_label
             // 
             this.search_location_label.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.search_location_label.AutoSize = true;
-            this.search_location_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_location_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_location_label.Location = new System.Drawing.Point(316, 46);
             this.search_location_label.Name = "search_location_label";
-            this.search_location_label.Size = new System.Drawing.Size(74, 20);
+            this.search_location_label.Size = new System.Drawing.Size(126, 17);
             this.search_location_label.TabIndex = 35;
-            this.search_location_label.Text = "Location:";
+            this.search_location_label.Text = "Местоположение:";
             // 
             // searchDocInput
             // 
             this.searchDocInput.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.searchDocInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.searchDocInput.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchDocInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchDocInput.Location = new System.Drawing.Point(127, 46);
             this.searchDocInput.MaxLength = 300;
             this.searchDocInput.MinimumSize = new System.Drawing.Size(2, 21);
             this.searchDocInput.Name = "searchDocInput";
-            this.searchDocInput.Size = new System.Drawing.Size(171, 21);
+            this.searchDocInput.Size = new System.Drawing.Size(171, 20);
             this.searchDocInput.TabIndex = 12;
             // 
             // search_by_label
             // 
             this.search_by_label.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.search_by_label.AutoSize = true;
-            this.search_by_label.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_by_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_by_label.ForeColor = System.Drawing.Color.DarkSlateBlue;
             this.search_by_label.Location = new System.Drawing.Point(403, 18);
             this.search_by_label.Name = "search_by_label";
-            this.search_by_label.Size = new System.Drawing.Size(79, 18);
+            this.search_by_label.Size = new System.Drawing.Size(69, 16);
             this.search_by_label.TabIndex = 5;
-            this.search_by_label.Text = "Search By:";
+            this.search_by_label.Text = "Поиск по:";
             // 
             // CrudPanel
             // 
@@ -222,13 +222,13 @@
             this.Reset_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Reset_btn.FlatAppearance.BorderSize = 0;
             this.Reset_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Reset_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reset_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Reset_btn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Reset_btn.Location = new System.Drawing.Point(378, 143);
             this.Reset_btn.Name = "Reset_btn";
             this.Reset_btn.Size = new System.Drawing.Size(100, 30);
             this.Reset_btn.TabIndex = 33;
-            this.Reset_btn.Text = "Reset";
+            this.Reset_btn.Text = "Сбросить";
             this.Reset_btn.UseVisualStyleBackColor = false;
             this.Reset_btn.Click += new System.EventHandler(this.Reset_btn_Click);
             // 
@@ -238,12 +238,12 @@
             this.Delete_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Delete_btn.FlatAppearance.BorderSize = 0;
             this.Delete_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Delete_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Delete_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Delete_btn.Location = new System.Drawing.Point(260, 143);
             this.Delete_btn.Name = "Delete_btn";
             this.Delete_btn.Size = new System.Drawing.Size(100, 30);
             this.Delete_btn.TabIndex = 32;
-            this.Delete_btn.Text = "Delete";
+            this.Delete_btn.Text = "Удалить";
             this.Delete_btn.UseVisualStyleBackColor = false;
             this.Delete_btn.Click += new System.EventHandler(this.Delete_btn_Click);
             // 
@@ -253,12 +253,12 @@
             this.Update_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Update_btn.FlatAppearance.BorderSize = 0;
             this.Update_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Update_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Update_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Update_btn.Location = new System.Drawing.Point(144, 143);
             this.Update_btn.Name = "Update_btn";
             this.Update_btn.Size = new System.Drawing.Size(100, 30);
             this.Update_btn.TabIndex = 31;
-            this.Update_btn.Text = "Update";
+            this.Update_btn.Text = "Обновить";
             this.Update_btn.UseVisualStyleBackColor = false;
             this.Update_btn.Click += new System.EventHandler(this.Update_btn_Click);
             // 
@@ -268,12 +268,12 @@
             this.Add_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Add_btn.FlatAppearance.BorderSize = 0;
             this.Add_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Add_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Add_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Add_btn.Location = new System.Drawing.Point(31, 143);
             this.Add_btn.Name = "Add_btn";
             this.Add_btn.Size = new System.Drawing.Size(100, 30);
             this.Add_btn.TabIndex = 30;
-            this.Add_btn.Text = "Add";
+            this.Add_btn.Text = "Добавить";
             this.Add_btn.UseVisualStyleBackColor = false;
             this.Add_btn.Click += new System.EventHandler(this.Add_btn_Click);
             // 
@@ -292,12 +292,12 @@
             // end_time_label
             // 
             this.end_time_label.AutoSize = true;
-            this.end_time_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.end_time_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.end_time_label.Location = new System.Drawing.Point(256, 77);
             this.end_time_label.Name = "end_time_label";
-            this.end_time_label.Size = new System.Drawing.Size(117, 20);
+            this.end_time_label.Size = new System.Drawing.Size(173, 17);
             this.end_time_label.TabIndex = 29;
-            this.end_time_label.Text = "End Date Time";
+            this.end_time_label.Text = "Дата и время окончания";
             // 
             // room_number_input
             // 
@@ -318,12 +318,12 @@
             // room_no_label
             // 
             this.room_no_label.AutoSize = true;
-            this.room_no_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.room_no_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.room_no_label.Location = new System.Drawing.Point(386, 18);
             this.room_no_label.Name = "room_no_label";
-            this.room_no_label.Size = new System.Drawing.Size(116, 20);
+            this.room_no_label.Size = new System.Drawing.Size(112, 17);
             this.room_no_label.TabIndex = 26;
-            this.room_no_label.Text = "Room Number";
+            this.room_no_label.Text = "Номер комнаты";
             // 
             // startDate_input
             // 
@@ -340,12 +340,12 @@
             // date_time_label
             // 
             this.date_time_label.AutoSize = true;
-            this.date_time_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date_time_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.date_time_label.Location = new System.Drawing.Point(27, 77);
             this.date_time_label.Name = "date_time_label";
-            this.date_time_label.Size = new System.Drawing.Size(123, 20);
+            this.date_time_label.Size = new System.Drawing.Size(150, 17);
             this.date_time_label.TabIndex = 25;
-            this.date_time_label.Text = "Start Date Time";
+            this.date_time_label.Text = "Дата и время начала";
             // 
             // location_input
             // 
@@ -362,12 +362,12 @@
             // Location_label
             // 
             this.Location_label.AutoSize = true;
-            this.Location_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Location_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Location_label.Location = new System.Drawing.Point(204, 18);
             this.Location_label.Name = "Location_label";
-            this.Location_label.Size = new System.Drawing.Size(71, 20);
+            this.Location_label.Size = new System.Drawing.Size(122, 17);
             this.Location_label.TabIndex = 15;
-            this.Location_label.Text = "Location";
+            this.Location_label.Text = "Местоположение";
             // 
             // doctor_input
             // 
@@ -395,12 +395,12 @@
             // doctor_label
             // 
             this.doctor_label.AutoSize = true;
-            this.doctor_label.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctor_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.doctor_label.Location = new System.Drawing.Point(27, 18);
             this.doctor_label.Name = "doctor_label";
-            this.doctor_label.Size = new System.Drawing.Size(59, 20);
+            this.doctor_label.Size = new System.Drawing.Size(41, 17);
             this.doctor_label.TabIndex = 13;
-            this.doctor_label.Text = "Doctor";
+            this.doctor_label.Text = "Врач";
             // 
             // BodyPanel
             // 
@@ -418,15 +418,15 @@
             this.ScheduleDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ScheduleDataGridView.BackgroundColor = System.Drawing.Color.LightGray;
             this.ScheduleDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(211)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Montserrat SemiBold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ScheduleDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(211)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ScheduleDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.ScheduleDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ScheduleDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ScheduleDataGridView.EnableHeadersVisualStyles = false;
@@ -450,7 +450,7 @@
             this.Controls.Add(this.BodyPanel);
             this.Controls.Add(this.TopPanel);
             this.Name = "ScheduleForm";
-            this.Text = "ScheduleForm";
+            this.Text = "Расписание";
             this.Load += new System.EventHandler(this.ScheduleForm_Load);
             this.TopPanel.ResumeLayout(false);
             this.SearchPanel.ResumeLayout(false);

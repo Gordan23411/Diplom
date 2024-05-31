@@ -50,7 +50,7 @@
             this.Controls.Add(this.ReportView);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "InvoiceView";
-            this.Text = "Invoice";
+            this.Text = "Счет-фактура";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.InvoiceView_Load);
             this.ResumeLayout(false);

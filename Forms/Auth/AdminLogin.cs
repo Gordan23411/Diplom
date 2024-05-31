@@ -27,7 +27,7 @@ namespace HealthCare_Plus.Forms.Auth
             string validation = FormValidate(EmailAddress, Password);
             if (validation != "valid")
             {
-                MessageBox.Show(validation, "Error", default, MessageBoxIcon.Error);
+                MessageBox.Show(validation, "Ошибка авторизации", default, MessageBoxIcon.Error);
             }
 
             if (validation == "valid")
@@ -42,7 +42,7 @@ namespace HealthCare_Plus.Forms.Auth
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
-                    MessageBox.Show("Server Error Try Again Later", "Error", default, MessageBoxIcon.Error);
+                    MessageBox.Show("Сервер спит, попробуйье позже", "Error", default, MessageBoxIcon.Error);
                     return;
                 }
 

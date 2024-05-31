@@ -69,7 +69,7 @@ namespace HealthCare_Plus.Forms.Dashboard.Admin
             email_input.Text = selectedRow.Cells[3].Value.ToString();
             qualification_input.Text = selectedRow.Cells[4].Value.ToString();
             Specialization_combobox.Text = selectedRow.Cells[5].Value.ToString();
-            phone_no_input.Text = selectedRow.Cells[6].Value.ToString();
+            phone_no_input.Text = selectedRow.Cells[6].Value.ToString();https://camo.githubusercontent.com/892f6b71dcf5d165405b1b091216ab952c729ea4481da79e36382119a6121c63/68747470733a2f2f692e696d6775722e636f6d2f546748494a48322e706e67
             location_input.Text = selectedRow.Cells[7].Value.ToString();
             home_address_input.Text = selectedRow.Cells[8].Value.ToString();
             hospital_address_input.Text = selectedRow.Cells[9].Value.ToString();

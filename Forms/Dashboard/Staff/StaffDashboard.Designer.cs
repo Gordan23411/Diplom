@@ -72,12 +72,12 @@
             this.logout_btn.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.logout_btn.FlatAppearance.BorderSize = 0;
             this.logout_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logout_btn.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logout_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logout_btn.Location = new System.Drawing.Point(0, 573);
             this.logout_btn.Name = "logout_btn";
             this.logout_btn.Size = new System.Drawing.Size(200, 38);
             this.logout_btn.TabIndex = 22;
-            this.logout_btn.Text = "Logout";
+            this.logout_btn.Text = "Выйти из аккаунта";
             this.logout_btn.UseVisualStyleBackColor = false;
             this.logout_btn.Click += new System.EventHandler(this.logout_btn_Click);
             // 
@@ -88,7 +88,7 @@
             this.appointmentBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.appointmentBtn.FlatAppearance.BorderSize = 0;
             this.appointmentBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.appointmentBtn.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.appointmentBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.appointmentBtn.ForeColor = System.Drawing.Color.White;
             this.appointmentBtn.Image = ((System.Drawing.Image)(resources.GetObject("appointmentBtn.Image")));
             this.appointmentBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -97,7 +97,7 @@
             this.appointmentBtn.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.appointmentBtn.Size = new System.Drawing.Size(200, 60);
             this.appointmentBtn.TabIndex = 19;
-            this.appointmentBtn.Text = "Appointment";
+            this.appointmentBtn.Text = "Назначение";
             this.appointmentBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.appointmentBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.appointmentBtn.UseVisualStyleBackColor = false;
@@ -110,7 +110,7 @@
             this.ScheduleBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.ScheduleBtn.FlatAppearance.BorderSize = 0;
             this.ScheduleBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ScheduleBtn.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ScheduleBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ScheduleBtn.ForeColor = System.Drawing.Color.White;
             this.ScheduleBtn.Image = global::HealthCare_Plus.Properties.Resources.staff_icon;
             this.ScheduleBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -119,7 +119,7 @@
             this.ScheduleBtn.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.ScheduleBtn.Size = new System.Drawing.Size(200, 60);
             this.ScheduleBtn.TabIndex = 18;
-            this.ScheduleBtn.Text = "Schedules";
+            this.ScheduleBtn.Text = "Расписания";
             this.ScheduleBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ScheduleBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.ScheduleBtn.UseVisualStyleBackColor = false;
@@ -132,7 +132,7 @@
             this.patientsBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.patientsBtn.FlatAppearance.BorderSize = 0;
             this.patientsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.patientsBtn.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.patientsBtn.ForeColor = System.Drawing.Color.White;
             this.patientsBtn.Image = global::HealthCare_Plus.Properties.Resources.patient_icon;
             this.patientsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -141,7 +141,7 @@
             this.patientsBtn.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.patientsBtn.Size = new System.Drawing.Size(200, 60);
             this.patientsBtn.TabIndex = 17;
-            this.patientsBtn.Text = "Patients";
+            this.patientsBtn.Text = "Пациенты";
             this.patientsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.patientsBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.patientsBtn.UseVisualStyleBackColor = false;
@@ -155,7 +155,7 @@
             this.doctorsBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.doctorsBtn.FlatAppearance.BorderSize = 0;
             this.doctorsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.doctorsBtn.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.doctorsBtn.ForeColor = System.Drawing.Color.White;
             this.doctorsBtn.Image = ((System.Drawing.Image)(resources.GetObject("doctorsBtn.Image")));
             this.doctorsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -164,7 +164,7 @@
             this.doctorsBtn.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.doctorsBtn.Size = new System.Drawing.Size(200, 60);
             this.doctorsBtn.TabIndex = 16;
-            this.doctorsBtn.Text = "Doctors";
+            this.doctorsBtn.Text = "Врачи";
             this.doctorsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.doctorsBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.doctorsBtn.UseVisualStyleBackColor = false;
@@ -185,11 +185,11 @@
             // 
             this.app_name_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.app_name_label.AutoSize = true;
-            this.app_name_label.Font = new System.Drawing.Font("Montserrat Medium", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.app_name_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.app_name_label.ForeColor = System.Drawing.Color.White;
             this.app_name_label.Location = new System.Drawing.Point(27, 83);
             this.app_name_label.Name = "app_name_label";
-            this.app_name_label.Size = new System.Drawing.Size(147, 21);
+            this.app_name_label.Size = new System.Drawing.Size(130, 18);
             this.app_name_label.TabIndex = 17;
             this.app_name_label.Text = "HealthCare Plus";
             // 
@@ -231,11 +231,11 @@
             // 
             this.username_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.username_label.AutoSize = true;
-            this.username_label.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.username_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.username_label.ForeColor = System.Drawing.Color.White;
             this.username_label.Location = new System.Drawing.Point(828, 47);
             this.username_label.Name = "username_label";
-            this.username_label.Size = new System.Drawing.Size(50, 15);
+            this.username_label.Size = new System.Drawing.Size(47, 13);
             this.username_label.TabIndex = 15;
             this.username_label.Text = "System";
             // 
@@ -243,13 +243,13 @@
             // 
             this.welcome_text.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.welcome_text.AutoSize = true;
-            this.welcome_text.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcome_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.welcome_text.ForeColor = System.Drawing.Color.White;
             this.welcome_text.Location = new System.Drawing.Point(366, 25);
             this.welcome_text.Name = "welcome_text";
-            this.welcome_text.Size = new System.Drawing.Size(142, 19);
+            this.welcome_text.Size = new System.Drawing.Size(151, 20);
             this.welcome_text.TabIndex = 12;
-            this.welcome_text.Text = "Staff Dashboard";
+            this.welcome_text.Text = "Меню персонала";
             // 
             // bodyPanel
             // 
@@ -271,7 +271,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StaffDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Staff Dashboard";
+            this.Text = "Окно перснонала";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.StaffDashboard_Load);
             this.navigationPanel.ResumeLayout(false);

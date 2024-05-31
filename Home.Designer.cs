@@ -39,13 +39,13 @@
             // welcome_text
             // 
             this.welcome_text.AutoSize = true;
-            this.welcome_text.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcome_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.welcome_text.ForeColor = System.Drawing.Color.Black;
             this.welcome_text.Location = new System.Drawing.Point(279, 32);
             this.welcome_text.Name = "welcome_text";
-            this.welcome_text.Size = new System.Drawing.Size(243, 19);
+            this.welcome_text.Size = new System.Drawing.Size(286, 20);
             this.welcome_text.TabIndex = 0;
-            this.welcome_text.Text = "Welcome To HealthCare Plus";
+            this.welcome_text.Text = "Дoбро пожаловать в HealthCare ";
             // 
             // login_btn
             // 
@@ -53,12 +53,12 @@
             this.login_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.login_btn.FlatAppearance.BorderSize = 0;
             this.login_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.login_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.login_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login_btn.Location = new System.Drawing.Point(255, 345);
             this.login_btn.Name = "login_btn";
-            this.login_btn.Size = new System.Drawing.Size(130, 38);
+            this.login_btn.Size = new System.Drawing.Size(130, 52);
             this.login_btn.TabIndex = 2;
-            this.login_btn.Text = "Staff Login";
+            this.login_btn.Text = "Авторизация персонала";
             this.login_btn.UseVisualStyleBackColor = false;
             this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
             // 
@@ -68,12 +68,12 @@
             this.admin_login_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.admin_login_btn.FlatAppearance.BorderSize = 0;
             this.admin_login_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.admin_login_btn.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.admin_login_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.admin_login_btn.Location = new System.Drawing.Point(391, 345);
             this.admin_login_btn.Name = "admin_login_btn";
-            this.admin_login_btn.Size = new System.Drawing.Size(140, 38);
+            this.admin_login_btn.Size = new System.Drawing.Size(140, 52);
             this.admin_login_btn.TabIndex = 2;
-            this.admin_login_btn.Text = "Admin Login";
+            this.admin_login_btn.Text = "Авторизация админа";
             this.admin_login_btn.UseVisualStyleBackColor = false;
             this.admin_login_btn.Click += new System.EventHandler(this.admin_login_btn_Click);
             // 
@@ -102,7 +102,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Home Page";
+            this.Text = "Главная страница";
             ((System.ComponentModel.ISupportInitialize)(this.welcome_image)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
